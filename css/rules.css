@@ -1,0 +1,95 @@
+@import url("main.css");
+
+.answer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.answer-form input {
+    font-size: 20px;
+    width: 400px;
+    padding: 10px 16px;
+}
+
+.buffer {
+    width: 200px;
+    height: 100%;
+    background-color: lightgray;
+}
+
+.correct-phrase-text {
+    font-size: var(--fs-header-200);
+    margin-bottom: 20px;
+}
+
+.main-section {
+    height: calc(100vh - var(--header-height));
+}
+
+.practice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+.practice-container h1 {
+    font-size: var(--fs-header-100);
+    color: var(--col-lightgrey);
+}
+
+
+.prompt-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+.prompt-container .left, .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex: 1;
+}
+.prompt-container  .right p {
+    text-align: justify;
+    line-height: 1.7;
+    max-width: 500px;
+}
+
+.question-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: var(--fs-paragraph);
+    margin-bottom: 30px;
+}
+
+.review-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px; 
+    width: fit-content;
+    padding: 10px; 
+    border-radius: 50px;
+    background-color: var(--col-primary);
+}
+.review-container li {
+    margin-bottom: 15px;
+}
+
+.open {
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.rule-text {
+    font-size: var(--fs-paragraph );
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTSA: Provisional License Exam Pratice</title>
+    <link rel="stylesheet" href="./css/rules.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <h1>RTSA Provisional License Practice</h1>
+        </div>
+    </header>
+
+    <section class="main-section">
+        <div id="prompt-container" class="container prompt-container">
+            <div class="left">
+                <h1>Press button to begin practice</h1>
+                <button id="begin-btn" class="btn btn-primary">Begin</button>
+            </div>
+            <div class="right">
+                <h2>Instructions</h2>
+                <p>
+                    When the practice begins you will be shown a random driving rule. The rule is incomplete, you will
+                    need to write the correct phrase to complete the driving rule. If you write the correct phrase the text
+                    will highlight green, if you write the wrong phrase the text will highlight red. Practice for as long as you can
+                    until you no longer get any phrases wrong. Use the review pop up to refresh your memory on the ten driving rules.
+                </p>
+            </div>
+        </div>
+
+        <div id="practice-container" class="container practice-container">
+            <h1>Complete the Phrase</h1>
+            <div class="question-container">
+                <div id="prefix-buffer" class="buffer"></div>
+                <p id="rule-text" class="rule-text">
+                    <span id="rule-prefix">Know the highway code very well and</span> 
+                    <span id="rule-postfix">Put it Into Pratice</span>
+                </p>
+                <div id="postfix-buffer" class="buffer"></div>
+            </div>
+            <h2 id="correct-phrase-text" class="correct-phrase-text">Error Text</h2>
+            <form id="answer-form" class="answer-form">
+                <input type="text" id="answer-input" autocomplete="off">
+                <div class="">
+                    <button class="btn btn-primary">submit</button>
+                </div>
+            </form>
+            <button id="next-btn" class="btn btn-primary">Next</button>
+        </div>
+
+        <div id="review-container" class="review-container">            
+            <div id="rules-container" class="rules-container">
+                <button id="close-review-btn" class="btn btn-light">close</button>
+                <h2>The Ten Basic Rules of Driving</h2>
+                <ul>
+                    <li>Know the highway code very well and put it into practice</li>
+                    <li>Concentrate all time on your driving and you will avoid accidents</li>
+                    <li>Interpret the traffic situation correctly before you act</li>
+                    <li>Exercise paitience and hang back when necessary</li>
+                    <li>Drive with care and give courtesy to other road users</li>
+                    <li>Adapt your speed according to the road and traffic conditions and never exceed the speed limit</li>
+                    <li>Develop your car sense and reduce wear and tear</li>
+                    <li>Use your horn considerately and Give proper signals</li>
+                    <li>Be sure your car is road worthy and know its limitations</li>
+                    <li>Perfect your road craft and acknowledge courtesies shown to you by other road users</li>
+                </ul>
+            </div>
+            <button id="review-btn" class="btn btn-light">Review</button>
+        </div>
+    </section>
+
+    <script src="/javascript/rules.js"></script>
+</body>
+</html>
