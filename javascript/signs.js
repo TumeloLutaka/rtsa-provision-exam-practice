@@ -96,6 +96,10 @@ const signs = [
         imgURL: "../images/no-buses.png"
     },
     {
+        name:"No Hawkers", 
+        imgURL: "../images/no-hawkers.png"
+    },
+    {
         name:"Length Limit", 
         imgURL: "../images/length-limit.png"
     },
@@ -249,7 +253,7 @@ const signs = [
     },
     {
         name:"Railway Crossing", 
-        imgURL: "../images/railway-crossing.png"
+        imgURL: "../images/railway-crossing-1.png"
     },
     {
         name:"Traffic Cones", 
@@ -269,7 +273,7 @@ const signs = [
     },
     {
         name:"Sharp Curve To The Right", 
-        imgURL: "../images/sharp-curve-to-the-right.png.png"
+        imgURL: "../images/sharp-curve-to-the-right.png"
     },
     {
         name:"Hairpin Bend (Left)", 
@@ -292,8 +296,8 @@ const signs = [
         imgURL: "../images/traffic-signals-ahead.png"
     },
     {
-        name:"End of Dual Roadway (Straight On) ", 
-        imgURL: "../images/end-of-dual-roadway-straight-on.png.png"
+        name:"End of Dual Roadway (Straight On)", 
+        imgURL: "../images/end-of-dual-roadway-straight-on.png"
     },
     // {
     //     name:"Roundabout", 
@@ -303,7 +307,7 @@ const signs = [
     //     name:"Stop/Yield", 
     //     imgURL: "../images/stop-yield.png"
     // },
-    {
+    // {
     //     name:"Yield At Mini Circle", 
     //     imgURL: "../images/yield-at-mini-circle.png"
     // },
@@ -382,7 +386,7 @@ const signs = [
     // {
     //     name:"Gore Plate", 
     //     imgURL: "../images/gore-plate.png"
-    }
+    // }
 ]
 
 var counter
@@ -413,7 +417,8 @@ const hiddens = [
 
 // Function called when user presses begin button or retry button
 function startPractice() {
-    counter = 0
+    console.log(signs)
+    counter = 70
     score = 0
     
     signsCounterText.innerText = `${counter + 1}/${signs.length} (${score})`
