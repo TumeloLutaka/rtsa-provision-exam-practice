@@ -295,10 +295,10 @@ const signs = [
         name:"End of Dual Roadway (Straight On) ", 
         imgURL: "../images/end-of-dual-roadway-straight-on.png.png"
     },
-    {
-        name:"Roundabout", 
-        imgURL: "../images/roundabout.png"
-    },
+    // {
+    //     name:"Roundabout", 
+    //     imgURL: "../images/roundabout.png"
+    // },
     // {
     //     name:"Stop/Yield", 
     //     imgURL: "../images/stop-yield.png"
