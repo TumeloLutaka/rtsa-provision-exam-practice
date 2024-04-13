@@ -74,11 +74,6 @@ const hiddens = [
 
 init()
 
-function beginPractice() {
-    // set question counter to 0 to keep track of number of questions answered
-    getQuestion()
-}
-
 function getQuestion() {
     rng = Math.floor(Math.random() * 2)
     // Randomizing question displayed.
@@ -145,7 +140,7 @@ function init() {
     });
     
     document.querySelector("#begin-btn").addEventListener("click", () => {
-        beginPractice()
+        getQuestion()
         setDisplay(reviewContainer, "none")
         setDisplay(promptContainer, "none")
         setDisplay(practiceContainer, "flex")
@@ -162,8 +157,8 @@ function init() {
         getQuestion()
         
         // Display the answer form and hide next button
-        toggle(answerForm)
         toggle(nextBtn)
+        setDisplay(answerForm, "flex")
         setDisplay(correctPhraseText, "none")
     })
 

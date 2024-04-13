@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTSA: Provisional License Exam Pratice</title>
+    <link rel="stylesheet" href="./css/rules.css">
+    <link rel="stylesheet" href="./css/signs.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <h1>RTSA Provisional License Practice</h1>
+        </div>
+    </header>
+
+    <section class="main-section">
+        <h1>Road Signs Practice Exercise</h1>
+        <div id="prompt-container" class="container prompt-container">
+            <div class="left">
+                <h1>Press button to begin practice</h1>
+                <button id="begin-btn" class="btn btn-primary">Begin</button>
+            </div>
+            <div class="right">
+                <h2>Instructions</h2>
+                <p>
+                    When the practice begins you will be shown a random driving rule. The rule is incomplete, you will
+                    need to write the correct phrase to complete the driving rule. If you write the correct phrase the text
+                    will highlight green, if you write the wrong phrase the text will highlight red. Practice for as long as you can
+                    until you no longer get any phrases wrong. Use the review pop up to refresh your memory on the ten driving rules.
+                </p>
+            </div>
+        </div>
+
+        <div id="practice-container" class="container practice-container">
+            <h1>Name the Sign Shown</h1>
+            <div class="image-container">
+                <img id="signs-img" src="" alt="">
+            </div>
+            <p id="sign-name-text">-</p>
+            <p id="signs-counter-text"></p>
+            <h2 id="correct-name-text" class="correct-name-text">Error Text</h2>
+            <form id="answer-form" class="answer-form">
+                <input type="text" id="answer-input" autocomplete="off">
+                <button class="btn btn-primary">submit</button>
+            </form>
+            <div class="button-container">
+                <button id="next-btn" class="btn btn-primary">Next</button>
+                <button id="retry-btn" class="btn btn-primary">Retry</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="/javascript/signs.js"></script>
+</body>
+</html>
