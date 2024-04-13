@@ -1,15 +1,79 @@
 const signs = [
     {
-        name:"Stop", 
-        imgURL: "../images/stop.png"
-    },
-    {
-        name:"Stop/Yield", 
-        imgURL: "../images/stop-yield.png"
+        name:"Yield to Pedestrian", 
+        imgURL: "../images/yield-to-pedestrian.png"
     },
     {
         name:"3-Way Stop", 
         imgURL: "../images/3-way-stop.png"
+    },
+    {
+        name:"Yield", 
+        imgURL: "../images/yield.png"
+    },
+    {
+        name:"No Entry", 
+        imgURL: "../images/no-entry.png"
+    },
+    {
+        name:"Stop", 
+        imgURL: "../images/stop.png"
+    },
+    {
+        name:"No Right Turn Ahead", 
+        imgURL: "../images/no-right-turn-ahead.png"
+    },
+    {
+        name:"One Way - (Right)", 
+        imgURL: "../images/one-way-right.png"
+    },
+    {
+        name:"Give Way to Oncoming Traffic", 
+        imgURL: "../images/give-way-to-oncoming-traffic.png"
+    },
+    {
+        name:"Roundabout", 
+        imgURL: "../images/roundabout-1.png"
+    },
+    {
+        name:"One Way - (Straight On)", 
+        imgURL: "../images/one-way-straight-on.png"
+    },
+    {
+        name:"No Parking", 
+        imgURL: "../images/no-parking.png"
+    },
+    {
+        name:"No Stopping", 
+        imgURL: "../images/no-stopping.png"
+    },
+    {
+        name:"No Overtaking", 
+        imgURL: "../images/no-overtaking.png"
+    },
+    {
+        name:"One Vehicle Width Structure", 
+        imgURL: "../images/one-vehicle-width-structure.png"
+    },
+    {
+        name:"Slippery Road", 
+        imgURL: "../images/slippery-road.png"
+    },
+    {
+        name:"Height Limit", 
+        imgURL: "../images/height-limit.png"
+    },
+    {
+        name:"Mass Limit", 
+        imgURL: "../images/mass-limit.png"
+    },
+    {
+        name:"Keep Left", 
+        imgURL: "../images/keep-left.png"
+    },
+    {
+        name:"Axel Load Limit", 
+        imgURL: "../images/axel-load-limit.png"
     },
     {
         name:"4-Way Stop", 
@@ -20,36 +84,76 @@ const signs = [
         imgURL: "../images/stop-go-control.png"
     },
     {
-        name:"Yield At Mini Circle", 
-        imgURL: "../images/yield-at-mini-circle.png"
+        name:"Speed Limit", 
+        imgURL: "../images/speed-limit.png"
     },
     {
-        name:"No Entry", 
-        imgURL: "../images/no-entry.png"
+        name:"No Excessive Noise", 
+        imgURL: "../images/no-excessive-noise.png"
+    },
+    {
+        name:"No Buses", 
+        imgURL: "../images/no-buses.png"
+    },
+    {
+        name:"Length Limit", 
+        imgURL: "../images/length-limit.png"
+    },
+    {
+        name:"No U-Turn", 
+        imgURL: "../images/no-u-turn.png"
+    },
+    {
+        name:"No Right Turn", 
+        imgURL: "../images/no-right-turn.png"
+    },
+    {
+        name:"Cyclist Only", 
+        imgURL: "../images/cyclist-only.png"
+    },
+    {
+        name:"Buses Only", 
+        imgURL: "../images/buses-only.png"
+    },
+    {
+        name:"Width Limit", 
+        imgURL: "../images/width-limit.png"
+    },
+    {
+        name:"Limited Duration Parking", 
+        imgURL: "../images/parking-with-a-60-minute-limit.png"
+    },
+    {
+        name:"Parking", 
+        imgURL: "../images/parking.png"
+    },
+    {
+        name:"Bus Lane", 
+        imgURL: "../images/bus-lane.png"
+    },
+    {
+        name:"Disabled Person's Vehicle Parking", 
+        imgURL: "../images/disabled-persons-vehicle-parking.png"
+    },
+    {
+        name:"Roundabout", 
+        imgURL: "../images/roundabout.png"
+    },
+    {
+        name:"Stop/Yield", 
+        imgURL: "../images/stop-yield.png"
+    },
+    {
+        name:"Yield At Mini Circle", 
+        imgURL: "../images/yield-at-mini-circle.png"
     },
     {
         name:"One Way - (Left)", 
         imgURL: "../images/one-way-left.png"
     },
     {
-        name:"One Way - (Right)", 
-        imgURL: "../images/one-way-right.png"
-    },
-    {
-        name:"One Way - (Straight On)", 
-        imgURL: "../images/one-way-straight-on.png"
-    },
-    {
-        name:"Minimum Speed", 
-        imgURL: "../images/minimum-speed.png"
-    },
-    {
         name:"Pass On Either Side", 
         imgURL: "../images/pass-on-either-side.png"
-    },
-    {
-        name:"Keep Left", 
-        imgURL: "../images/keep-left.png"
     },
     {
         name:"Keep Right", 
@@ -70,10 +174,6 @@ const signs = [
     {
         name:"Goods Vehicles Over GVM Only", 
         imgURL: "../images/goods-vehicles-over-gvm-only.png"
-    },
-    {
-        name:"Roundabout", 
-        imgURL: "../images/roundabout.png"
     },
     {
         name:"Vehicle Exceeding Mass Only", 
@@ -158,10 +258,6 @@ const signs = [
     {
         name:"Speed Humps", 
         imgURL: "../images/speed-humps.png"
-    },
-    {
-        name:"Slippery Road", 
-        imgURL: "../images/slippery-road.png"
     },
     {
         name:"Danger Plate/Delineator Plate", 
