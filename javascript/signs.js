@@ -136,149 +136,253 @@ const signs = [
         imgURL: "../images/disabled-persons-vehicle-parking.png"
     },
     {
-        name:"Roundabout", 
-        imgURL: "../images/roundabout.png"
+        name:"Bus Parking Area", 
+        imgURL: "../images/bus-parking-area.png"
     },
     {
-        name:"Stop/Yield", 
-        imgURL: "../images/stop-yield.png"
+        name:"Road Humps", 
+        imgURL: "../images/speed-humps.png"
     },
     {
-        name:"Yield At Mini Circle", 
-        imgURL: "../images/yield-at-mini-circle.png"
+        name:"General Warning", 
+        imgURL: "../images/general-warning.png"
     },
     {
-        name:"One Way - (Left)", 
-        imgURL: "../images/one-way-left.png"
-    },
-    {
-        name:"Pass On Either Side", 
-        imgURL: "../images/pass-on-either-side.png"
-    },
-    {
-        name:"Keep Right", 
-        imgURL: "../images/keep-right.png"
-    },
-    {
-        name:"Turn Left", 
-        imgURL: "../images/turn-left.png"
-    },
-    {
-        name:"Construction Vehicles Only", 
-        imgURL: "../images/construction-vehicles-only.png"
-    },
-    {
-        name:"Vehicles Dangerous Goods Only", 
-        imgURL: "../images/vehicles-dangerous-goods-only.png"
-    },
-    {
-        name:"Goods Vehicles Over GVM Only", 
-        imgURL: "../images/goods-vehicles-over-gvm-only.png"
-    },
-    {
-        name:"Vehicle Exceeding Mass Only", 
-        imgURL: "../images/vehicle-exceeding-mass-only.png"
-    },
-    {
-        name:'Distance "For"', 
-        imgURL: "../images/distance-for.png"
-    },
-    {
-        name:"Traffic Circle", 
-        imgURL: "../images/traffic-circle.png"
-    },
-    {
-        name:"Gentle Curve (Right)", 
-        imgURL: "../images/gentle-curve-right.png"
-    },
-    {
-        name:"Gentle Curve (Left)", 
-        imgURL: "../images/gentle-curve-left.png"
-    },
-    {
-        name:"Hairpin Bend (Right)", 
-        imgURL: "../images/hairpin-bend-right.png"
-    },
-    {
-        name:"Hairpin Bend (Left)", 
-        imgURL: "../images/hairpin-bend-left.png"
-    },
-    {
-        name:"Traffic Signals Ahead", 
-        imgURL: "../images/traffic-signals-ahead.png"
-    },
-    {
-        name:"Pedestrians", 
-        imgURL: "../images/pedestrians.png"
-    },
-    {
-        name:"Children", 
-        imgURL: "../images/children.png"
-    },
-    {
-        name:"Cyclist", 
-        imgURL: "../images/cyclist.png"
+        name:"drift", 
+        imgURL: "../images/drift.png"
     },
     {
         name:"Domestic Animals (Cattle)", 
         imgURL: "../images/domestic-animals-cattle.png"
     },
     {
+        name:"Winding Road (Right Left)", 
+        imgURL: "../images/winding-road-right-left.png"
+    },
+    {
+        name:"Uneven Roadway", 
+        imgURL: "../images/uneven-roadway.png"
+    },
+    {
+        name:"Children", 
+        imgURL: "../images/children.png"
+    },
+    {
+        name:"End of Dual Roadway (To Right)", 
+        imgURL: "../images/end-of-dual-roadway-to-right.png"
+    },
+    {
+        name:"Road Narrows From Left Side", 
+        imgURL: "../images/road-narrows-from-left-side-only.png"
+    },
+    {
+        name:"Y Junction", 
+        imgURL: "../images/y-junction.png"
+    },
+    {
         name:"Wild Animals Ahead", 
         imgURL: "../images/wild-animals-ahead.png"
     },
     {
-        name:"Railway Crossing", 
-        imgURL: "../images/railway-crossing.png"
+        name:"Two Way Traffic Cross Roads", 
+        imgURL: "../images/to-way-traffic-cross-roads.png"
     },
     {
-        name:"Tunnel", 
-        imgURL: "../images/tunnel.png"
+        name:"Falling Rocks (From Right)", 
+        imgURL: "../images/falling-rock-from-right.png"
     },
     {
-        name:"Steep Descent", 
-        imgURL: "../images/steep-descent.png"
-    },
-    {
-        name:"Slow Moving Heavy Vehicles", 
-        imgURL: "../images/slow-moving-heavy-vehicles.png"
-    },
-    {
-        name:"Narrow Brigde", 
-        imgURL: "../images/narrow-bridge.png"
-    },
-    {
-        name:"Road Narrows Both Sides", 
-        imgURL: "../images/road-narrows-both-sides.png"
-    },
-    {
-        name:"Road Narrows From Left Side Only", 
-        imgURL: "../images/road-narrows-from-left-side-only.png"
-    },
-    {
-        name:"Speed Humps", 
-        imgURL: "../images/speed-humps.png"
-    },
-    {
-        name:"Danger Plate/Delineator Plate", 
-        imgURL: "../images/danger-plate.png"
-    },
-    {
-        name:"Danger Plate/Delineator Plate", 
-        imgURL: "../images/danger-plate.png"
+        name:"Gentle Curve (Right)", 
+        imgURL: "../images/gentle-curve-right.png"
     },
     {
         name:"T - Junction Chevron", 
         imgURL: "../images/t-junction-chevron.png"
     },
     {
-        name:"Dead End/Road Closed Chevron", 
+        name:"Road Closed", 
         imgURL: "../images/dead-end-chevron.png"
     },
     {
-        name:"Gore Plate", 
-        imgURL: "../images/gore-plate.png"
+        name:"Overhead Danger plate", 
+        imgURL: "../images/over-head-danger-plate.png"
     },
+    {
+        name:"No Goods Vehicles", 
+        imgURL: "../images/no-goods-vehicles.png"
+    },
+    {
+        name:"Roadworks", 
+        imgURL: "../images/roadworks.png"
+    },
+    {
+        name:"Tunnel", 
+        imgURL: "../images/tunnel.png"
+    },
+    {
+        name:"Sharp junction(Half Left)", 
+        imgURL: "../images/sharp-junction-half-left.png"
+    },
+    {
+        name:"Pedestrian Crossing", 
+        imgURL: "../images/pedestrian-crossing.png"
+    },
+    {
+        name:"Crossroads on priority roads", 
+        imgURL: "../images/crossroads-on-priority-roads.png"
+    },
+    {
+        name:"Side Road Junction (Left)", 
+        imgURL: "../images/side-road-junction-left.png"
+    },
+    {
+        name:"Steep Descent", 
+        imgURL: "../images/steep-descent.png"
+    },
+    {
+        name:"Two Way Traffic", 
+        imgURL: "../images/two-way-traffic.png"
+    },
+    {
+        name:"Sharp Curve To The Right", 
+        imgURL: "../images/sharp-curve-right.png"
+    },
+    {
+        name:"Railway Crossing", 
+        imgURL: "../images/railway-crossing.png"
+    },
+    {
+        name:"Traffic Cones", 
+        imgURL: "../images/traffic-cones.png"
+    },
+    {
+        name:"Start Of Dual Roadway (To Left)", 
+        imgURL: "../images/start-of-dual-roadway-to-the-left.png"
+    },
+    {
+        name:"Staggered Junctions (Right-Left)", 
+        imgURL: "../images/staggered-junction-right-left.png"
+    },
+    {
+        name:"Sharp Junction (Left)", 
+        imgURL: "../images/sharp-junction-left.png"
+    },
+    {
+        name:"Sharp Curve To The Right", 
+        imgURL: "../images/sharp-curve-to-the-right.png.png"
+    },
+    {
+        name:"Hairpin Bend (Left)", 
+        imgURL: "../images/hairpin-bend-left.png"
+    },
+    {
+        name:"T Junction", 
+        imgURL: "../images/t-junction.png"
+    },
+    {
+        name:"Road Narrows Both Sides", 
+        imgURL: "../images/road-narrows-both-sides.png"
+    },
+    {
+        name:"Narrow Brigde", 
+        imgURL: "../images/narrow-bridge.png"
+    },
+    {
+        name:"Traffic Signals Ahead", 
+        imgURL: "../images/traffic-signals-ahead.png"
+    },
+    {
+        name:"End of Dual Roadway (Straight On) ", 
+        imgURL: "../images/end-of-dual-roadway-straight-on.png.png"
+    },
+    {
+        name:"Roundabout", 
+        imgURL: "../images/roundabout.png"
+    },
+    // {
+    //     name:"Stop/Yield", 
+    //     imgURL: "../images/stop-yield.png"
+    // },
+    {
+    //     name:"Yield At Mini Circle", 
+    //     imgURL: "../images/yield-at-mini-circle.png"
+    // },
+    // {
+    //     name:"One Way - (Left)", 
+    //     imgURL: "../images/one-way-left.png"
+    // },
+    // {
+    //     name:"Pass On Either Side", 
+    //     imgURL: "../images/pass-on-either-side.png"
+    // },
+    // {
+    //     name:"Keep Right", 
+    //     imgURL: "../images/keep-right.png"
+    // },
+    // {
+    //     name:"Turn Left", 
+    //     imgURL: "../images/turn-left.png"
+    // },
+    // {
+    //     name:"Construction Vehicles Only", 
+    //     imgURL: "../images/construction-vehicles-only.png"
+    // },
+    // {
+    //     name:"Vehicles Dangerous Goods Only", 
+    //     imgURL: "../images/vehicles-dangerous-goods-only.png"
+    // },
+    // {
+    //     name:"Goods Vehicles Over GVM Only", 
+    //     imgURL: "../images/goods-vehicles-over-gvm-only.png"
+    // },
+    // {
+    //     name:"Vehicle Exceeding Mass Only", 
+    //     imgURL: "../images/vehicle-exceeding-mass-only.png"
+    // },
+    // {
+    //     name:'Distance "For"', 
+    //     imgURL: "../images/distance-for.png"
+    // },
+    // {
+    //     name:"Traffic Circle", 
+    //     imgURL: "../images/traffic-circle.png"
+    // },
+    // {
+    //     name:"Gentle Curve (Left)", 
+    //     imgURL: "../images/gentle-curve-left.png"
+    // },
+    // {
+    //     name:"Hairpin Bend (Right)", 
+    //     imgURL: "../images/hairpin-bend-right.png"
+    // },
+    // {
+    //     name:"Pedestrians", 
+    //     imgURL: "../images/pedestrians.png"
+    // },
+    // {
+    //     name:"Cyclist", 
+    //     imgURL: "../images/cyclist.png"
+    // },
+    // {
+    //     name:"Railway Crossing", 
+    //     imgURL: "../images/railway-crossing.png"
+    // },
+    // {
+    //     name:"Slow Moving Heavy Vehicles", 
+    //     imgURL: "../images/slow-moving-heavy-vehicles.png"
+    // },
+    // {
+    //     name:"Danger Plate/Delineator Plate", 
+    //     imgURL: "../images/danger-plate.png"
+    // },
+    // {
+    //     name:"Danger Plate/Delineator Plate", 
+    //     imgURL: "../images/danger-plate.png"
+    // },
+    // {
+    //     name:"Gore Plate", 
+    //     imgURL: "../images/gore-plate.png"
+    }
 ]
 
 var counter
