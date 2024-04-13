@@ -418,7 +418,7 @@ const hiddens = [
 // Function called when user presses begin button or retry button
 function startPractice() {
     console.log(signs)
-    counter = 70
+    counter = 0
     score = 0
     
     signsCounterText.innerText = `${counter + 1}/${signs.length} (${score})`
